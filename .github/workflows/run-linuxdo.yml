@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 20 * * *'  # 对应中国时间的每天凌晨4点
+    - cron: '0 12 * * *'  # 对应中国时间的每天晚上8点
 
 jobs:
   run-linuxdo:
